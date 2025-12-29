@@ -30,7 +30,6 @@ function App() {
       eventSourceRef.current = new EventSource(sseUrl);
     } catch (error) {
       console.error('Failed to create EventSource:', error);
-      setIsConnected(false);
       setActivityMessage('Failed to create SSE connection');
       return;
     }
