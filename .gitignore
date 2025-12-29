@@ -1,0 +1,47 @@
+############################
+# Spring Boot (Backend)
+############################
+
+# Maven / Gradle build output
+ordertracking_backend/target/
+ordertracking_backend/build/
+
+# Logs
+ordertracking_backend/*.log
+
+# IDE files
+ordertracking_backend/.classpath
+ordertracking_backend/.project
+ordertracking_backend/.settings/
+
+############################
+# React (Frontend)
+############################
+
+# Dependencies
+ordertracking_ui/node_modules/
+
+# Production build
+ordertracking_ui/build/
+
+# Environment variables
+ordertracking_ui/.env
+ordertracking_ui/.env.local
+ordertracking_ui/.env.development
+ordertracking_ui/.env.production
+
+############################
+# General / OS / IDE
+############################
+
+# Environment variables
+.env
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
